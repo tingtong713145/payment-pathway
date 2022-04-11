@@ -1,24 +1,57 @@
-import logo from './logo.svg';
+
+import React from 'react'
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <div className="container">
+        <div className="main-content">
+          <p className="text">GeeksforGeeks</p>
+        </div>
+        <div className="centre-content">
+          <h1 className="price">pay your bill<span>/-</span></h1>
+          <p className="course">
+            Buy your favourite food Now !
+          </p>
+        </div>
+        <div className="last-content">
+          <button type="button" className="pay-now-btn">
+            Apply Coupons
+          </button>
+          <button type="button" className="pay-now-btn">
+            Pay with Netbanking
+          </button>
+          {/* <button type="button" class="pay-now-btn">
+		Netbanking options
+		</button> */}
+        </div>
+        <div className="card-details">
+          <p>Pay using Credit or Debit card</p>
+          <div className="card-number">
+            <label> Card Number </label>
+            <input type="text" className="card-number-field" placeholder="###-###-###" />
+          </div>
+          <br />
+          <div className="date-number">
+            <label> Expiry Date </label>
+            <input type="text" className="date-number-field" placeholder="DD-MM-YY" />
+          </div>
+          <div className="cvv-number">
+            <label> CVV number </label>
+            <input type="text" className="cvv-number-field" placeholder="xxx" />
+          </div>
+          <div className="nameholder-number">
+            <label> Card Holder name </label>
+            <input type="text" className="card-name-field" placeholder="Enter your Name" />
+          </div>
+          <button type="submit" className="submit-now-btn">
+            submit
+          </button>
+        </div>
+      </div>
+    </>
   );
 }
 
