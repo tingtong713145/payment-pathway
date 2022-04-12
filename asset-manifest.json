@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/tingtong713145/payment_gateway.git/static/css/main.1ac5f624.css",
-    "main.js": "/tingtong713145/payment_gateway.git/static/js/main.cfdcde13.js",
-    "static/js/787.e4f5448c.chunk.js": "/tingtong713145/payment_gateway.git/static/js/787.e4f5448c.chunk.js",
-    "static/media/background.jpg": "/tingtong713145/payment_gateway.git/static/media/background.f66b2b7ab90d39fb4c1b.jpg",
-    "index.html": "/tingtong713145/payment_gateway.git/index.html",
-    "main.1ac5f624.css.map": "/tingtong713145/payment_gateway.git/static/css/main.1ac5f624.css.map",
-    "main.cfdcde13.js.map": "/tingtong713145/payment_gateway.git/static/js/main.cfdcde13.js.map",
-    "787.e4f5448c.chunk.js.map": "/tingtong713145/payment_gateway.git/static/js/787.e4f5448c.chunk.js.map"
+    "main.css": "/payment_gateway/static/css/main.f2e61e9d.css",
+    "main.js": "/payment_gateway/static/js/main.b2917196.js",
+    "static/js/787.e4f5448c.chunk.js": "/payment_gateway/static/js/787.e4f5448c.chunk.js",
+    "static/media/background.jpg": "/payment_gateway/static/media/background.f66b2b7ab90d39fb4c1b.jpg",
+    "index.html": "/payment_gateway/index.html",
+    "main.f2e61e9d.css.map": "/payment_gateway/static/css/main.f2e61e9d.css.map",
+    "main.b2917196.js.map": "/payment_gateway/static/js/main.b2917196.js.map",
+    "787.e4f5448c.chunk.js.map": "/payment_gateway/static/js/787.e4f5448c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ac5f624.css",
-    "static/js/main.cfdcde13.js"
+    "static/css/main.f2e61e9d.css",
+    "static/js/main.b2917196.js"
   ]
 }
